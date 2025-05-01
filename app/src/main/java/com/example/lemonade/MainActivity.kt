@@ -68,7 +68,7 @@ fun LemonadeApp(modifier: Modifier = Modifier) {
     Column (
         modifier = modifier
             .fillMaxSize()
-            .background(color = colorResource(R.color.nature_1)),
+            .background(color = colorResource(R.color.nature_3)),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally,
     ){
@@ -76,7 +76,7 @@ fun LemonadeApp(modifier: Modifier = Modifier) {
             onClick = { moveNext() },
             shape = RoundedCornerShape(35.dp),
             colors = ButtonDefaults.buttonColors(
-                containerColor = colorResource(R.color.nature_5),
+                containerColor = colorResource(R.color.nature_2),
                 contentColor = Color.Unspecified,
                 disabledContainerColor = Color.Unspecified,
                 disabledContentColor = Color.Unspecified,
@@ -91,7 +91,7 @@ fun LemonadeApp(modifier: Modifier = Modifier) {
             text = stringResource(stage.textResource),
             fontFamily = FontFamily.Serif,
             fontSize = 15.sp,
-            color = colorResource(R.color.nature_3),
+            color = colorResource(R.color.nature_1),
             modifier = Modifier.padding(top = 20.dp),
         )
     }

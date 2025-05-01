@@ -55,7 +55,7 @@ fun LemonadeApp(modifier: Modifier = Modifier) {
     var stageIndex by remember { mutableIntStateOf(0) }
     val stages by remember { mutableStateOf(listOf(
         LemonadeStage(imageResource = R.drawable.lemon_tree, textResource = R.string.stage_1_text, 1),
-        RandomTouchLemonadeStage(imageResource = R.drawable.lemon_squeeze, textResource = R.string.stage_2_text, 2),
+        RandomTapsLemonadeStage(imageResource = R.drawable.lemon_squeeze, textResource = R.string.stage_2_text, 2),
         LemonadeStage(imageResource = R.drawable.lemon_drink, textResource = R.string.stage_3_text, 3),
         LemonadeStage(imageResource = R.drawable.lemon_restart, textResource = R.string.stage_4_text, 0),
     ))}

@@ -1,6 +1,6 @@
 package com.example.lemonade
 
-class RandomTouchLemonadeStage constructor(imageResource: Int, textResource: Int, nextStageIndex: Int) : LemonadeStage(imageResource = imageResource, textResource = textResource, nextStageIndex = nextStageIndex) {
+class RandomTapsLemonadeStage constructor(imageResource: Int, textResource: Int, nextStageIndex: Int) : LemonadeStage(imageResource = imageResource, textResource = textResource, nextStageIndex = nextStageIndex) {
     private var touchNumberTarget: Int = 0;
     private var totalTouched = 0;
     override fun touch(): Boolean {

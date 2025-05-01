@@ -75,6 +75,7 @@ fun LemonadeApp(modifier: Modifier = Modifier) {
         Text(
             text = text,
             fontFamily = FontFamily.Serif,
+            fontSize = 20.sp,
             color = colorResource(R.color.nature_3),
             modifier = Modifier.padding(top = 20.dp),
         )
